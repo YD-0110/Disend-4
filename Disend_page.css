@@ -1,0 +1,46 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    
+    background-color: #47c2fe;
+
+
+background-image:  linear-gradient(30deg, #a535f2 12%, transparent 12.5%, transparent 87%, #a535f2 87.5%, #a535f2), linear-gradient(150deg, #a535f2 12%, transparent 12.5%, transparent 87%, #a535f2 87.5%, #a535f2), linear-gradient(30deg, #a535f2 12%, transparent 12.5%, transparent 87%, #a535f2 87.5%, #a535f2), linear-gradient(150deg, #a535f2 12%, transparent 12.5%, transparent 87%, #a535f2 87.5%, #a535f2), linear-gradient(60deg, #a535f277 25%, transparent 25.5%, transparent 75%, #a535f277 75%, #a535f277), linear-gradient(60deg, #a535f277 25%, transparent 25.5%, transparent 75%, #a535f277 75%, #a535f277);
+background-size: 20px 35px;
+background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+cursor: cell;
+}
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+
+.header{
+    background-color: white;
+    border: solid 2px;
+    border-radius: 20px;
+}
